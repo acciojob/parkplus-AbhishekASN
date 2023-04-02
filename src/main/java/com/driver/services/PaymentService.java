@@ -1,5 +1,5 @@
 package com.driver.services;
 
-public interface PaymentService {
+public interface paymentService {
     Payment pay(Integer reservationId, int amountSent, String mode) throws Exception;
 }
